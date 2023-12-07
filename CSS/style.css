@@ -10,8 +10,15 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 90px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     box-shadow: 2px 2px 10px gray;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .img{
@@ -23,17 +30,39 @@ body{
 }
 #id-header{
     text-decoration: none;
-    color: gray;
+    color: #808080;
     padding-left: 10px;
     
 }
 
+.carousel-content {
+    position: relative;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ajusta el color del texto según el fondo de la imagen */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+
+
+
+
 /*   main - section   */
+main{
+    margin-top: 100px;
+}
+
 #img-carrusel{
-    width: 90%;
-    padding-top: 3%;
-    padding-left: 10%;
-    height: 50%;
+    width: 95%;
+    height: 700px;
+    padding-left: 4%;
 }
 
 .blog{
@@ -42,11 +71,8 @@ body{
     flex-direction: row;
 }
 
+
 /*  main - box1  */
-
-#logo2{
-
-}
 .parrafo{
     margin-top: 30px;
     text-align: justify;
@@ -58,6 +84,26 @@ body{
     border-radius: 20%;
     padding: 10px;
 }
+.proovedor{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #808080;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo-proovedor{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 300px;
+}
+
+#logo-proovedor:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+
+
 
 /*   footer    */
 

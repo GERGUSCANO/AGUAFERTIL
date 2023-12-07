@@ -11,13 +11,13 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid box-container">
+        <div class="container-fluid box-container" id="main-header">
             <div class="container1">
                 <img class="img" src="../IMG/cropped-Logo-horizontal-web.png" alt="logo">
             </div>
             <div class="container2">
-                <a href="inicio" id="id-header">Inicio</a>
-                <a href="productos" id="id-header">Productos</a>
+                <a href="#inicio" id="id-header">Inicio</a>
+                <a href="#productos" id="id-header">Productos</a>
             </div>
         </div>
     </header>
@@ -28,12 +28,24 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img id="img-carrusel" src="../IMG/cultivo1.jpg" class="d-block " alt="...">
+                        <div class="carousel-text">
+                          <h2>Nutrición Vegetal</h2>
+                          <!--<p>Descripción o cualquier otro contenido aquí.</p>-->
+                        </div>                        
                       </div>
                       <div class="carousel-item">
                         <img id="img-carrusel" src="../IMG/manos-agric.jpg" class="d-block " alt="...">
+                        <div class="carousel-text">
+                          <h2>Nutrición Vegetal</h2>
+                          <!--<p>Descripción o cualquier otro contenido aquí.</p>-->
+                        </div> 
                       </div>
                       <div class="carousel-item">
                         <img id="img-carrusel" src="../IMG/mujer-trigo.jpg" class="d-block " alt="...">
+                        <div class="carousel-text">
+                          <h2>Nutrición Vegetal</h2>
+                          <!--<p>Descripción o cualquier otro contenido aquí.</p>-->
+                        </div> 
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -72,12 +84,29 @@
                 <img src="../IMG/ajo.jpg" alt="">
             </div>
         </section>
+        <section class="container-fluid proovedor d-flex">
+          
+          <a href="https://www.kioshistone.com/index.jsp">
+            <img id="logo-proovedor" src="../IMG/kioshi-logo-verde.png" alt="">
+          </a>
+          <a href="https://www.bloemen.com.ar/">
+            <img id="logo-proovedor" src="../IMG/bloemen-logo-verde.png" alt="">
+          </a>
+          <a href="https://tensac.com.ar/">
+            <img id="logo-proovedor" src="../IMG/tensac-logo-verde.png" alt="">
+          </a>
+          
+          
+          
+        </section>
 
 
-        
+        <script src="../JS/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
