@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px gray;
+}
+
+.img{
+    padding-top: 10px;
+}
+
+
+.container2{
+    margin-right: 3%;
+}
+#id-header{
+    text-decoration: none;
+    color: gray;
+    padding-left: 10px;
+    
+}
+
+#img-carrusel{
+    width: 90%;
+    padding-top: 3%;
+    padding-left: 10%;
+    height: 50%;
+}
+
+.blog{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
